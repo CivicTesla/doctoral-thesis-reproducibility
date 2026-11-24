@@ -1,0 +1,13 @@
+chapter,dissertation_item,release_evidence,status,qualification
+03,Table 3.1,chapter03_polar_prefix_cosets/results/n64_theorem_freeze.json,VERIFIED_FINITE_CERTIFICATE,Frozen object rebuilt from eight matched inputs
+04,Table 4.1 and Figure 4.1,chapter04_subtree_reconstruction/tests/verify_c2.py,VERIFIED_FINITE_CHECK,57/57 finite checks; general proof review outstanding
+05,Massive final-paper Figure 6,chapter05_massive_and_future_intent/PROVENANCE.md,DOCUMENTED_LIMITATION,Prior pixel match recorded; panel images withheld pending rights clearance; execution log missing
+05,Future Intent pipeline,chapter05_massive_and_future_intent/src/future_intent/event_coupled_field.py,LOCATED,Separate later method
+06,Figures 6.2 and 6.4,chapter06_digital_twin_obs/results/plot_inputs/P2PLoopCovMoves.csv,DOCUMENTED_LIMITATION,100-agent fourth block untraced and stop ambiguity
+07,E40 numerical tables,chapter07_valid_future_admission/results/e40/channel/by_episode.csv,CONFLICT,15 of 20 numerical values match; five channel values differ
+08,CF0 branch hash audit,chapter08_intervention_counterfactual/results/cf0/07_branch_hash_validation.csv,LOCATED,180/180 saved branch matches
+08,CF1 frozen model,chapter08_intervention_counterfactual/results/cf1/02_frozen_model_manifest.csv,VERIFIED_HASH,Manifest and selected hashes checked
+08,F0 frozen artifacts,chapter08_intervention_counterfactual/verification/frozen_b1/F0_final_hpc_validation/01_frozen_artifact_manifest.csv,VERIFIED_HASH,37/37 release-local frozen hash check
+08,S1R and Per Stream thesis claims,docs/AUDIT_SUMMARY.md,DOCUMENTED_LIMITATION,Original audit rows and scripts absent
+09,R0 registered simulation,chapter09_wireless_path_dependence/results/r0_registered_2000/registered_world_manifest.csv,VERIFIED_SAVED_COUNTS,Original ns-3 binary unavailable
+09,R3 and R3B decision analyses,chapter09_wireless_path_dependence/results/r3/decision_band.csv,VERIFIED_SAVED_CALCULATION,Five rows recalculated; populations kept distinct

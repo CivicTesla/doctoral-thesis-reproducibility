@@ -1,0 +1,15 @@
+{
+  "N": 64,
+  "antichain_nonempty_object_count": 1172,
+  "antichain_object_id_set_sha256": "219705ed5268f4c8db9294dfa498b80201c019d2bce81d7a7df07040d943823c",
+  "antichain_upper_set_count": 1173,
+  "bits": 6,
+  "canonical_object_id_sets_equal": true,
+  "method_A": "included/excluded upper-closure recursion",
+  "method_B": "antichain enumeration followed by upward-closure reconstruction",
+  "primary_nonempty_object_count": 1172,
+  "primary_object_id_set_sha256": "219705ed5268f4c8db9294dfa498b80201c019d2bce81d7a7df07040d943823c",
+  "primary_upper_set_count": 1173,
+  "status": "PASS",
+  "upper_set_sets_equal": true
+}

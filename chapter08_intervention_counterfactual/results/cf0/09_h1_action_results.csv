@@ -1,0 +1,2 @@
+mechanism,n_checkpoints,n_independent_seeds,P_best_CAPACITY,P_best_SYNC,P_best_NO_ACTION,P_tie,seeds_supporting_CAPACITY,seeds_supporting_SYNC,seeds_supporting_NO_ACTION,median_advantage,mean_advantage
+H1_CAPACITY_SHORTAGE,30,30,1.0,0.0,0.0,0.0,30,0,0,5.629857398512975,5.816813585663251

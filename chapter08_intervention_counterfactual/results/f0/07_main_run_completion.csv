@@ -1,0 +1,3 @@
+phase,pair,status,path
+main,pair1,COMPLETE,runs/main_pair1
+main,pair2,COMPLETE,runs/main_pair2

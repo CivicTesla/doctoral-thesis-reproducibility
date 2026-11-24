@@ -1,0 +1,7 @@
+source_alias,source_family,version_or_context,sharing_note
+AUDIT_STAGE,Prior four-stage audit staging directory,Hash-matched historical copies and later replay,Do not infer original Git history from staging copy
+C2_REAL,Polar and subtree research tree,Submitted-thesis evidence selected,Later work excluded by file selection
+ARCHIVE_A1,Future Intent event pipeline,Separate later method,Not Massive original experiment
+ARCHIVE_A2V,E40 valid-future study,Original results and code selected,E41 not copied
+B1,Intervention audit project,CF0 CF1 F0 and frozen inputs,External Simu5G replication incomplete
+B3P,Wireless path dependence project,R0 registered and R3/R3B,Original ns-3 build unavailable

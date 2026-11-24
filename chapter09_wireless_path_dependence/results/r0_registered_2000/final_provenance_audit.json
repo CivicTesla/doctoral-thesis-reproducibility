@@ -1,0 +1,75 @@
+{
+  "audit_status": "PAPER_GATE_READY",
+  "audit_mode": "read-only committed-history and frozen-artifact review",
+  "precommit_commit": "51be4469e8c9fd6d5ebc18c6eee1e464b33bb513",
+  "precommit_sha256": "2ca23c64a3187f8a4540d51cd465dc5c255d916f443bdecc1a55755efdbe78a4",
+  "selfcheck_commit": "57fb69178eee8812c1d1c8964d02d3933ffc1d64",
+  "execution_lock_commit": "f200c0cb8a17bfc0600f7381f423c9eeefada38d",
+  "executor_analysis_commit": "161d2f2004239db36cb97735cea940bfa04cf103",
+  "registered_result_commit": "b85281845cec43dbe57e43752fb7678b402c1828",
+  "mechanism_status": "MECHANISM_PASS",
+  "witness_status": "WITNESS_PASS",
+  "status_rule": {
+    "file": "EXECUTION_LOCK.md",
+    "lines": "108-124",
+    "frozen_before_execution": true,
+    "secondary_metrics_can_upgrade": false
+  },
+  "positive_system_witness": {
+    "metric": "terminal_absolute_delivered_bits_difference",
+    "class": "primary terminal paired operational metric",
+    "semantic_freeze": "f200c0c: EXECUTION_LOCK.md:52-54,110-117",
+    "executable_definition": "161d2f2: ns3_witness/scripts/analyze_registered.py:70,111-117",
+    "plus_minus_zero": {
+      "estimate_bits": -63021941.18785264,
+      "ci95_bits": [-68038921.40083823, -58004960.97486706],
+      "relative_effect": 0.6331398657950238
+    }
+  },
+  "selection_rule": {
+    "rule": "select A iff terminal_rate_A >= terminal_rate_B; ties select A",
+    "semantic_freeze": "f200c0c: EXECUTION_LOCK.md:32,52-54",
+    "executable_definition": "161d2f2: ns3_witness/scripts/analyze_registered.py:71",
+    "frozen_before_execution": true
+  },
+  "selection_disagreement": {
+    "class": "primary terminal paired operational metric",
+    "semantic_freeze": "f200c0c: EXECUTION_LOCK.md:63-64,118-120",
+    "executable_definition": "161d2f2: ns3_witness/scripts/analyze_registered.py:105-120",
+    "plus_minus_zero": {
+      "estimate": 0.449,
+      "wilson_ci95": [0.4273196809003545, 0.4708758579223333]
+    }
+  },
+  "posthoc_metric_used_for_status": false,
+  "witness_pass_survives_posthoc_metric_removal": true,
+  "marginal_interpretation": {
+    "branchwise_forward_law_preserved": true,
+    "raw_branch_mean_used_as_completion_evidence": false,
+    "signed_terminal_mean_contrasts_cross_zero": true,
+    "absolute_and_selection_quantities_are_joint_pathwise": true
+  },
+  "integrated_boundary": {
+    "signed_integrated_cross_arm_intervals_cross_zero": true,
+    "status_was_not_upgraded_by_integrated_metrics": true
+  },
+  "execution_integrity": {
+    "world_count": 2000,
+    "world_ids": "1-2000 exactly once",
+    "master_seed": 2026082801,
+    "arms": ["KAPPA_PLUS", "KAPPA_ZERO", "KAPPA_MINUS"],
+    "crashes_or_retries": "none",
+    "rescue_tuning": false,
+    "native_ns3_shadowing_active": false,
+    "one_bridge_value_per_mesh_evaluation": true,
+    "precommit_unchanged": true
+  },
+  "paper_wording_to_avoid": [
+    "completion improves average wireless performance",
+    "completion changes a population marginal action value",
+    "ns-3 is buggy",
+    "the position-indexed field is physically correct",
+    "large whole-route aggregate performance changes",
+    "canonical Y alone is the system-level witness"
+  ]
+}

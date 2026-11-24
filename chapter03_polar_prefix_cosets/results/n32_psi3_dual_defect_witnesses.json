@@ -1,0 +1,7 @@
+{
+  "status": "PARTIAL_EXISTING_DATA_INTERPRETATION",
+  "pairs": 3,
+  "common_existing_witness": "beta=000, coefficient (c2,c3)=(0,0), namely T0, separates all three frozen N32 Psi2 collision pairs",
+  "dual_defect_interpretation": "T0 is a joint three-body/four-region masked statistic; frozen Psi2 equality supplies only pairwise marginal data.",
+  "limitation": "No bounded extraction of a unique signed four-region dual-word class was completed for the high-rank K=18/K=19 pairs; no stronger common witness is claimed."
+}

@@ -1,0 +1,25 @@
+status: FROZEN_BEFORE_RESULTS
+seeds: [5000, 5029]
+horizon: 240
+decision_tick: 120
+rollout_horizon: 120
+arrival_rate: 1.4
+deadline_offset: 55
+radio_work: 1
+compute_work: 1
+nominal_radio_capacity: 2
+nominal_compute_capacity: 2
+bottleneck_radio_capacity: 1
+bottleneck_compute_capacity: 1
+bottleneck_relative_reduction: 0.5
+action_augmentation: 1
+action_relative_augmentation: 0.5
+action_delay: 2
+action_duration: 60
+activation_cost: 0.5
+deadline_miss_weight: 1.0
+unfinished_task_weight: 1.0
+normalized_delay_weight: 0.1
+bootstrap_replicates: 2000
+sparse_window: 20
+outer_group_folds: 5

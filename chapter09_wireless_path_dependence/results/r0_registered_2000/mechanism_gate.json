@@ -1,0 +1,11 @@
+{
+  "status": "MECHANISM_PASS",
+  "n_worlds": 2000,
+  "rows": 6,
+  "variance_99pct_interval": [
+    14.76895637987866,
+    17.383659036517304
+  ],
+  "endpoint_mean_99pct_halfwidth": 0.23038917684685126,
+  "failures": []
+}

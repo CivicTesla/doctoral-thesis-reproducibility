@@ -1,0 +1,3 @@
+mechanism,n_checkpoints,n_rows_in_classification_sample,n_independent_seeds,counterfactual_hashes_valid
+H1_CAPACITY_SHORTAGE,400,800,400,True
+H2_DISTRIBUTED_CAPACITY_SUPPRESSION,400,800,400,True

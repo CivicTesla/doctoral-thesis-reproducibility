@@ -1,0 +1,4 @@
+method,n_rows,has_stored_per_row_predictions,reconstruction_needed,reconstruction_source
+T0,1600,True,False,decision_state_manifest.mechanism_probability_H2
+T4,1600,False,True,g0.fit_classifier + frozen 02_window_manifest.csv window
+R4,1600,False,True,g0b.fit_classifier_costsensitive/probabilities_biased + frozen 05_selected_candidate_by_outer_fold.csv

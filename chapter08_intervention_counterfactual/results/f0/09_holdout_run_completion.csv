@@ -1,0 +1,3 @@
+phase,pair,status,path
+holdout,pair1,COMPLETE,runs/holdout_pair1
+holdout,pair2,COMPLETE,runs/holdout_pair2

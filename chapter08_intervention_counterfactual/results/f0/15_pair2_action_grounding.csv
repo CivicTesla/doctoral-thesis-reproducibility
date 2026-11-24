@@ -1,0 +1,3 @@
+mechanism,n_seeds,all_branch_hashes_valid
+H3_RADIO_UPLINK_BOTTLENECK,400,True
+H4_EDGE_COMPUTE_BOTTLENECK,400,True

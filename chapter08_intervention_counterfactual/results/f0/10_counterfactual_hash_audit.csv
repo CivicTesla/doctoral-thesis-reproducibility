@@ -1,0 +1,5 @@
+phase,pair,total_checkpoints,invalid_checkpoints,note
+main,pair1,800,0,cf0.run_checkpoint raises before any row is recorded on hash mismatch
+main,pair2,800,0,explicit per-row check
+holdout,pair1,200,0,cf0.run_checkpoint raises before any row is recorded on hash mismatch
+holdout,pair2,200,0,explicit per-row check

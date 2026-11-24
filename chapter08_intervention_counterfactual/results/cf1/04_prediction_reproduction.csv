@@ -1,0 +1,10 @@
+method,metric,archived_value,reproduced_value,abs_difference,reproduced_exactly
+T0,balanced_accuracy,0.813125,0.813125,0.0,True
+T0,coverage,0.679375,0.679375,0.0,True
+T0,total_regret,2.849881553449197,2.8498815534491975,4.440892098500626e-16,True
+T4,balanced_accuracy,0.8675,0.8675,0.0,True
+T4,coverage,0.87875,0.87875,0.0,True
+T4,total_regret,2.5853061568824414,2.5853061568824414,0.0,True
+R4,balanced_accuracy,0.83,0.83,0.0,True
+R4,coverage,0.811875,0.811875,0.0,True
+R4,total_regret,2.8123066651482924,2.8123066651482924,0.0,True

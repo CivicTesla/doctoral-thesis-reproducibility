@@ -1,0 +1,71 @@
+{
+  "adversarial_checklist": {
+    "canonical_psi3": "PASS: 74 exact canonical Psi3 pair separations",
+    "complete_partition": "PASS: 1010 singleton + 81 pair classes = 1172; no class size >=3",
+    "finite_field_homomorphism": "PASS: base monomial sums, finite sums, convolution products, diagonal enumeration, and branch combination commute with phi",
+    "first_hard_certificates": "PASS: 7/7 at p=1000000007, point=(17,101)",
+    "hash_usage": "SHA-256 is integrity/index provenance only; all signature equality uses canonical data and all modular certificates use residue inequality.",
+    "historical_full_jobs": "NOT USED",
+    "independent_universe": "PASS: antichain/upward-closure reconstruction has identical canonical ID set",
+    "modular_controls": "PASS: self, product-lift equality, canonical/recursive controls, and 74-pair detection",
+    "projection_refinement_lemma": "PASS: Psi<=2 is the first two coordinates of Psi<=3",
+    "second_hard_certificates": "PASS: 7/7 at p=998244353, point=(23,1009)"
+  },
+  "artifact_sha256": {
+    "canonical_final": "43a4a96b0e1b3c91bbdc678029fa202d7fa61cd0204c0b4d5a60df5f576c5fb9",
+    "controls": "2ef3c1672d99fea4e726661394032713bacc2feae5d0b2b43aa843315992a79d",
+    "first": "86f2018cc4a0a82fed16d83f4edfea04324e87e4627462237c3e03fbcf89c0ab",
+    "n32_universe": "90fba3e2fd39bd7dece3d654fd7bd2e951f529d6802005a40fb6217ff3e02b8b",
+    "partition": "31e8ddf77c9a2cf41e7aac4f0e0ce710ecc88bcb8712efd1b061662e8894591f",
+    "preflight": "804d302a37bec65ea2d8193f694976f59da96a20d506912829ec69b69d602f87",
+    "second": "3ea2fd5f4760bddc8a5206eb39cb993072a4e225bc8fc21592b51b9362641acc",
+    "universe": "d82ca2387034bf9e7c64f66eaa9cd8c3eb20f2f3649b1f7ee92d620089b949a4"
+  },
+  "lemmas": {
+    "finite_field": "For phi: Z[t2,t3]^4 -> F_p^4, phi(P)!=phi(Q) implies P!=Q.",
+    "projection": "Psi_{<=2}=pi_{<=2} o Psi_{<=3}; therefore Psi_{<=3} refines Psi_{<=2}."
+  },
+  "n32_regression": {
+    "independent_object_id_set_sha256": "63ddac399c0dfac1e11f6526ab53108a975baf333e33ddf08ba8676b2adedca1",
+    "nonempty_canonical_objects": 118,
+    "upper_sets_including_empty": 119
+  },
+  "psi3_resolution": {
+    "canonical_pair_separations": 74,
+    "equal_pairs": 0,
+    "first_modular_certificates": 7,
+    "second_modular_certificates": 7,
+    "unresolved_pairs": 0
+  },
+  "psi_le2_partition": {
+    "class_size_histogram": {
+      "1": 1010,
+      "2": 81,
+      "ge_3": 0
+    },
+    "equivalence_classes": 1091,
+    "partition_sha256": "b28417ec100abbba38205364fe50b3a130eb3bfa72b0f1c56f6f67376a53ae6b"
+  },
+  "recurrence_operation_audit": {
+    "base_case_monomial_accumulation": "PASS: t2^c2*t3^c3 maps to a^c2*b^c3 modulo p, coefficientwise.",
+    "branch_combination": "PASS: modular sum of left_value*right_value, the image of exact convolution.",
+    "convolution_products": "PASS: exponent addition maps to multiplication of monomial values and phi preserves products.",
+    "diagonal_code_and_branch_enumeration": "PASS: finite, coefficient-independent index enumerations; phi commutes termwise with their sums.",
+    "finite_sums": "PASS: phi preserves addition.",
+    "implementation_functions": [
+      "RecursiveTupleEvaluator.evaluate",
+      "ModularScalarTupleEvaluator.evaluate",
+      "signature_modular_root_range"
+    ],
+    "substitutions_or_division": "PASS: none are used by the Psi3 recurrence.",
+    "tuple_shifts_and_reindexing": "PASS: shifts only select recursive subproblems and introduce no coefficient operation."
+  },
+  "scope": "complete finite N=64 UPO family only",
+  "status": "PASS",
+  "theorem": "k*_Psi(64,UPO) = 3",
+  "universe": {
+    "independent_object_id_set_sha256": "219705ed5268f4c8db9294dfa498b80201c019d2bce81d7a7df07040d943823c",
+    "nonempty_canonical_objects": 1172,
+    "upper_sets_including_empty": 1173
+  }
+}

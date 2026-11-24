@@ -1,0 +1,5 @@
+# Chapter 05 provenance
+
+Massive files come from the 2022 `001-BigVersion1` engineering project. Figure 6 images are pixel-identical to the final paper's embedded panels, and the relevant images, programs, and arrays existed in source commit `f9918b4` dated 2022-04-21. This identifies the image source project but does not prove the precise run chain. The author reports that the original Massive code was manually written without AI code generation. Future Intent files come from the separate ARCHIVE_A1 project; their module-level development provenance is TO_BE_CONFIRMED.
+
+This package copied 15 chapter files without changing their bytes. The source alias and relative path for each file appear in the top-level [file manifest](../GITHUB_FILE_MANIFEST.csv). Git commit information, where known, is contextual; a commit date alone does not prove that a specific file was used in the submitted dissertation. File hashes prove copy integrity, not experimental reproduction. Any later verification or replay program is identified separately from historical research code.

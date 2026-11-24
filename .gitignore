@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+*.swp
+*.tmp
+
+# Local-only V1 sharing and safety holds; keep original bytes on disk.
+/chapter05_massive_and_future_intent/results/massive/01-GridonRadius.png
+/chapter05_massive_and_future_intent/results/massive/02-GridonRandomNeighbor.png
+/chapter06_digital_twin_obs/results/p2p_03_raw/03P2P!!!!!!!!!!!!!!!!!!!!!!!.npy

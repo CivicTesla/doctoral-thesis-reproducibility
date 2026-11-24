@@ -1,0 +1,2 @@
+method,n,balanced_accuracy,coverage,total_regret,h1_regret,h2_regret,h1_to_h2_error,h2_to_h1_error,accepted_only_total_regret,ba_matches_archived,coverage_matches_archived,old_total_regret_noncausal
+T4,1600,0.8675,0.87875,2.5891820078373002,2.126810781021852,3.051553234652748,0.1275,0.1375,2.2565371355189763,True,True,2.5853061568824414

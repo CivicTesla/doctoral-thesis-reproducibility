@@ -1,0 +1,10 @@
+source_alias,source_relative_path,reason
+MASSIVE_PAPER,Massive.pdf,full paper redistribution rights unconfirmed
+AUDIT_STAGE,chapter06_digital_twin_obs/src/obs_historical_03/MapMatrix.npy,missing or symbolic link
+AUDIT_STAGE,chapter06_digital_twin_obs/src/obs_historical_04/MapMatrix.npy,missing or symbolic link
+B1,CF0_strict_counterfactual_grounding/02_preregistered_protocol.md,non-English text in historical file
+B1,CF0_strict_counterfactual_grounding/16_cf0_report.md,non-English text in historical file
+B1,CF0_strict_counterfactual_grounding/results/CONCLUSIONS/CF0_STRICT_COUNTERFACTUAL/CF0_FORMAL_DECISION.md,non-English text in historical file
+B1,CF1_strict_regret_regeneration/21_cf1_report.md,non-English text in historical file
+B1,CF1_strict_regret_regeneration/results/CONCLUSIONS/CF1_STRICT_REGRET/CF1_FORMAL_DECISION.md,non-English text in historical file
+B3P,results/r0_registered_2000/RUNLOG.md,internal path or personal contact

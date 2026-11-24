@@ -1,0 +1,2 @@
+mechanism,n_checkpoints,n_independent_seeds,P_best_CAPACITY,P_best_SYNC,P_best_NO_ACTION,P_tie,seeds_supporting_CAPACITY,seeds_supporting_SYNC,seeds_supporting_NO_ACTION,median_advantage,mean_advantage
+H2_DISTRIBUTED_CAPACITY_SUPPRESSION,30,30,0.0,1.0,0.0,0.0,0,30,0,40.20340516852254,39.791959234892744

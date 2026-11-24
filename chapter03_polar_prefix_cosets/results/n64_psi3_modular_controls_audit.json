@@ -1,0 +1,81 @@
+{
+  "canonical_complete_objects_validated": 148,
+  "canonical_vs_recursive_and_self_controls": [
+    {
+      "checks": [
+        {
+          "independent_recursive_rerun_equal": true,
+          "setting": "p1000000007_a17_b101",
+          "stored_equals_recursive": true
+        },
+        {
+          "independent_recursive_rerun_equal": true,
+          "setting": "p998244353_a23_b1009",
+          "stored_equals_recursive": true
+        }
+      ],
+      "object": "n64_i31_J44-45-46-47-52-53-54-55-56-57-58-59-60-61-62-63"
+    },
+    {
+      "checks": [
+        {
+          "independent_recursive_rerun_equal": true,
+          "setting": "p1000000007_a17_b101",
+          "stored_equals_recursive": true
+        },
+        {
+          "independent_recursive_rerun_equal": true,
+          "setting": "p998244353_a23_b1009",
+          "stored_equals_recursive": true
+        }
+      ],
+      "object": "n64_i47_J54-55-58-59-60-61-62-63"
+    },
+    {
+      "checks": [
+        {
+          "independent_recursive_rerun_equal": true,
+          "setting": "p1000000007_a17_b101",
+          "stored_equals_recursive": true
+        },
+        {
+          "independent_recursive_rerun_equal": true,
+          "setting": "p998244353_a23_b1009",
+          "stored_equals_recursive": true
+        }
+      ],
+      "object": "n64_i30_J31-44-45-46-47-52-53-54-55-56-57-58-59-60-61-62-63"
+    }
+  ],
+  "existing_broad_cross_validation": {
+    "N32_objects": 6,
+    "N64_objects": 7,
+    "classes": "N32 controls plus cheap, medium, and hard complete N64 survivors",
+    "points_per_object": 3
+  },
+  "full_canonical_pair_detection": {
+    "p1000000007_a17_b101": 74,
+    "p998244353_a23_b1009": 74
+  },
+  "known_exact_psi2_product_lift_equality": [
+    {
+      "residue_vector": [
+        237695941,
+        24017965,
+        24017965
+      ],
+      "setting": "p1000000007_a17_b101",
+      "values_equal": true
+    },
+    {
+      "residue_vector": [
+        648200660,
+        807742875,
+        807742875
+      ],
+      "setting": "p998244353_a23_b1009",
+      "values_equal": true
+    }
+  ],
+  "status": "PASS"
+}

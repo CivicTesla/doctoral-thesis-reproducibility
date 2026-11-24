@@ -1,0 +1,7 @@
+task_id,phase,pair,mechanisms,actions,seed_start,seed_end,n_seeds,driver_script,config_hash,expected_output
+1,smoke,pair1,H1_CAPACITY_SHORTAGE|H2_DISTRIBUTED_CAPACITY_SUPPRESSION,"3 (strict fork, all mechanisms)",6990,6994,5,run_f0_pair1.py,43b092e0c3ad9a8a,smoke_pair1/_run_metadata.json
+2,smoke,pair2,H3_RADIO_UPLINK_BOTTLENECK|H4_EDGE_COMPUTE_BOTTLENECK,"3 (strict fork, all mechanisms)",6990,6994,5,run_f0_pair2.py,4e623c7962a7051e,smoke_pair2/_run_metadata.json
+3,main,pair1,H1_CAPACITY_SHORTAGE|H2_DISTRIBUTED_CAPACITY_SUPPRESSION,"3 (strict fork, all mechanisms)",7000,7399,400,run_f0_pair1.py,685f41f23f2c9aaf,main_pair1/_run_metadata.json
+4,main,pair2,H3_RADIO_UPLINK_BOTTLENECK|H4_EDGE_COMPUTE_BOTTLENECK,"3 (strict fork, all mechanisms)",7000,7399,400,run_f0_pair2.py,cdb83fef55a79b13,main_pair2/_run_metadata.json
+5,holdout,pair1,H1_CAPACITY_SHORTAGE|H2_DISTRIBUTED_CAPACITY_SUPPRESSION,"3 (strict fork, all mechanisms)",7400,7499,100,run_f0_pair1.py,dfa6eee2f9f29615,holdout_pair1/_run_metadata.json
+6,holdout,pair2,H3_RADIO_UPLINK_BOTTLENECK|H4_EDGE_COMPUTE_BOTTLENECK,"3 (strict fork, all mechanisms)",7400,7499,100,run_f0_pair2.py,fed2ba0321d04243,holdout_pair2/_run_metadata.json

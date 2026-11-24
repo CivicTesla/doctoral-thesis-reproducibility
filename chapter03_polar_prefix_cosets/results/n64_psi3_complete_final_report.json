@@ -1,0 +1,18 @@
+{
+  "N": 64,
+  "justification": "exact Psi<=2 collision proves order 2 insufficient; all 81 Psi<=2 collision pairs are separated either by canonical exact Psi3 data or by validated exact finite-field evaluation witnesses",
+  "k_star_Psi_64_UPO": 3,
+  "provenance": {
+    "modular_certificates_sha256": "86f2018cc4a0a82fed16d83f4edfea04324e87e4627462237c3e03fbcf89c0ab",
+    "modular_preflight_sha256": "804d302a37bec65ea2d8193f694976f59da96a20d506912829ec69b69d602f87",
+    "partial_analysis_sha256": "1c98628167960dc463697db8870cb0b50f031c504fedef2d4e6eadc62b494dc9"
+  },
+  "psi2_collision_pairs": 81,
+  "psi3_canonically_separated_pairs": 74,
+  "psi3_equal_pairs": 0,
+  "psi3_incomplete_pairs": 0,
+  "psi3_modularly_certified_pairs": 7,
+  "psi4_manifest_allowed": false,
+  "status": "complete",
+  "total_objects": 1172
+}

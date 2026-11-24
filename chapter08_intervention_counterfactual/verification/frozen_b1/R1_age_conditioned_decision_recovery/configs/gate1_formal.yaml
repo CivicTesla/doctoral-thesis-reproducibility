@@ -1,0 +1,39 @@
+random_seed: 8107
+train_seeds:
+  start: 3000
+  end: 3199
+validation_seeds:
+  start: 3200
+  end: 3299
+development_test_seeds:
+  start: 3300
+  end: 3399
+sealed_final_test_seeds:
+  start: 2000
+  end: 2029
+forbidden_r0_seeds:
+  start: 120
+  end: 149
+fixed_primary_scheme: F2
+fixed_negative_control: F4
+primary_conditions:
+  - {delay: 1, loss: 0.0}
+  - {delay: 2, loss: 0.0}
+auxiliary_conditions:
+  - {delay: 0, loss: 0.0}
+  - {delay: 5, loss: 0.0}
+  - {delay: 0, loss: 0.1}
+  - {delay: 0, loss: 0.2}
+receiver:
+  model: logistic_regression
+  l2: 0.1
+  decision_threshold: 0.5
+  reject_cost: 5.0
+statistics:
+  bootstrap_replicates: 2000
+  permutation_replicates: 2000
+gate:
+  minimum_ba_improvement: 0.07
+  minimum_h2_regret_reduction_fraction: 0.50
+  minimum_reject_coverage: 0.80
+  parameter_control_tolerance: 0.03

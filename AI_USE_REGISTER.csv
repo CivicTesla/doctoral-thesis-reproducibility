@@ -1,0 +1,11 @@
+chapter,code_family,development_origin,scope,basis
+03,Polar prefix coset research modules,TO_BE_CONFIRMED,Module-level development history not established,No inference from tests or commit dates
+04,Subtree research and verifier,TO_BE_CONFIRMED,Module-level development history not established,Untracked verifier status does not prove authorship
+05,Original Massive Twinning research code,AUTHOR_WRITTEN_NO_AI_CODE_GENERATION,Historical original code only,Author statement
+05,Later Future Intent pipeline,TO_BE_CONFIRMED,Separate later method,Not inferred from Massive origin
+06,Original OBS 03 and 04 code,AUTHOR_WRITTEN_NO_AI_CODE_GENERATION,Historical original code only,Author statement
+06,Later OBS 300-trial replay,CODEX_ASSISTED_LATER_VERIFICATION,Not original research implementation,Prior audit provenance
+07,E40 research modules,TO_BE_CONFIRMED,Original E40 versus later audits separately recorded,No categorical AI claim
+08,CF0 CF1 and F0 modules,TO_BE_CONFIRMED,Module-level origin not established,No categorical AI claim
+09,ns-3 and R3/R3B modules,TO_BE_CONFIRMED,Module-level origin not established,No categorical AI claim
+ALL,V1 manifest checker and repository prose,CODEX_ASSISTED_PACKAGING,Release preparation only,Created for this V1 package

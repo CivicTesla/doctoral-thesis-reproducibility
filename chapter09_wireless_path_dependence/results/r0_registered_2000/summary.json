@@ -1,0 +1,610 @@
+{
+  "status": "WITNESS_PASS",
+  "mechanism_status": "MECHANISM_PASS",
+  "endpoint_diagnostic": [
+    {
+      "arm": "KAPPA_PLUS",
+      "n": 2000,
+      "endpoint_difference_sd_db": 2.652014262720973,
+      "canonical_disagreement_count": 428,
+      "canonical_disagreement_probability": 0.214,
+      "canonical_disagreement_ci95": [
+        0.19658287469350122,
+        0.23251367635137538
+      ]
+    },
+    {
+      "arm": "KAPPA_ZERO",
+      "n": 2000,
+      "endpoint_difference_sd_db": 5.165566190881261,
+      "canonical_disagreement_count": 900,
+      "canonical_disagreement_probability": 0.45,
+      "canonical_disagreement_ci95": [
+        0.42831332749237255,
+        0.4718783772357527
+      ]
+    },
+    {
+      "arm": "KAPPA_MINUS",
+      "n": 2000,
+      "endpoint_difference_sd_db": 6.931046694406218,
+      "canonical_disagreement_count": 1319,
+      "canonical_disagreement_probability": 0.6595,
+      "canonical_disagreement_ci95": [
+        0.6384436851122536,
+        0.6799447768050267
+      ]
+    }
+  ],
+  "operational_by_arm_branch": [
+    {
+      "arm": "KAPPA_PLUS",
+      "branch": "A",
+      "n": 2000,
+      "terminal_rx_power_dbm": {
+        "mean": -71.13844040522422,
+        "ci95": [
+          -71.31532464120076,
+          -70.96155616924767
+        ]
+      },
+      "terminal_rate_bps": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "terminal_delivered_bits": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "route_delivered_bits": {
+        "mean": 5457070719.38392,
+        "ci95": [
+          5402545542.228413,
+          5511595896.539427
+        ]
+      },
+      "route_average_rate_bps": {
+        "mean": 545707071.938392,
+        "ci95": [
+          540254554.2228414,
+          551159589.6539427
+        ]
+      },
+      "route_outage_fraction": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "arm": "KAPPA_PLUS",
+      "branch": "B",
+      "n": 2000,
+      "terminal_rx_power_dbm": {
+        "mean": -71.16158814025549,
+        "ci95": [
+          -71.33790572057022,
+          -70.98527055994076
+        ]
+      },
+      "terminal_rate_bps": {
+        "mean": 531646086.98836845,
+        "ci95": [
+          525998108.72166777,
+          537294065.2550691
+        ]
+      },
+      "terminal_delivered_bits": {
+        "mean": 531646086.98836845,
+        "ci95": [
+          525998108.72166777,
+          537294065.2550691
+        ]
+      },
+      "route_delivered_bits": {
+        "mean": 32914889026.237186,
+        "ci95": [
+          32644367430.123394,
+          33185410622.35098
+        ]
+      },
+      "route_average_rate_bps": {
+        "mean": 548581483.7713279,
+        "ci95": [
+          544072790.5027589,
+          553090177.0398968
+        ]
+      },
+      "route_outage_fraction": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "arm": "KAPPA_ZERO",
+      "branch": "A",
+      "n": 2000,
+      "terminal_rx_power_dbm": {
+        "mean": -71.13844040522422,
+        "ci95": [
+          -71.31532464120076,
+          -70.96155616924767
+        ]
+      },
+      "terminal_rate_bps": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "terminal_delivered_bits": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "route_delivered_bits": {
+        "mean": 5457070719.38392,
+        "ci95": [
+          5402545542.228413,
+          5511595896.539427
+        ]
+      },
+      "route_average_rate_bps": {
+        "mean": 545707071.938392,
+        "ci95": [
+          540254554.2228414,
+          551159589.6539427
+        ]
+      },
+      "route_outage_fraction": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "arm": "KAPPA_ZERO",
+      "branch": "B",
+      "n": 2000,
+      "terminal_rx_power_dbm": {
+        "mean": -71.18143907636863,
+        "ci95": [
+          -71.35550076042809,
+          -71.00737739230918
+        ]
+      },
+      "terminal_rate_bps": {
+        "mean": 530967383.39410645,
+        "ci95": [
+          525391744.5318285,
+          536543022.2563844
+        ]
+      },
+      "terminal_delivered_bits": {
+        "mean": 530967383.39410645,
+        "ci95": [
+          525391744.5318285,
+          536543022.2563844
+        ]
+      },
+      "route_delivered_bits": {
+        "mean": 32896535887.988834,
+        "ci95": [
+          32626671312.014645,
+          33166400463.963024
+        ]
+      },
+      "route_average_rate_bps": {
+        "mean": 548275598.1338549,
+        "ci95": [
+          543777855.2009459,
+          552773341.0667639
+        ]
+      },
+      "route_outage_fraction": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "arm": "KAPPA_MINUS",
+      "branch": "A",
+      "n": 2000,
+      "terminal_rx_power_dbm": {
+        "mean": -71.13844040522422,
+        "ci95": [
+          -71.31532464120076,
+          -70.96155616924767
+        ]
+      },
+      "terminal_rate_bps": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "terminal_delivered_bits": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "route_delivered_bits": {
+        "mean": 5457070719.38392,
+        "ci95": [
+          5402545542.228413,
+          5511595896.539427
+        ]
+      },
+      "route_average_rate_bps": {
+        "mean": 545707071.938392,
+        "ci95": [
+          540254554.2228414,
+          551159589.6539427
+        ]
+      },
+      "route_outage_fraction": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "arm": "KAPPA_MINUS",
+      "branch": "B",
+      "n": 2000,
+      "terminal_rx_power_dbm": {
+        "mean": -71.21570904512092,
+        "ci95": [
+          -71.39198235770145,
+          -71.03943573254038
+        ]
+      },
+      "terminal_rate_bps": {
+        "mean": 529990170.26843673,
+        "ci95": [
+          524360468.66649014,
+          535619871.8703833
+        ]
+      },
+      "terminal_delivered_bits": {
+        "mean": 529990170.26843673,
+        "ci95": [
+          524360468.66649014,
+          535619871.8703833
+        ]
+      },
+      "route_delivered_bits": {
+        "mean": 32870150255.293797,
+        "ci95": [
+          32600988893.31475,
+          33139311617.272842
+        ]
+      },
+      "route_average_rate_bps": {
+        "mean": 547835837.588937,
+        "ci95": [
+          543349814.8892804,
+          552321860.2885936
+        ]
+      },
+      "route_outage_fraction": {
+        "mean": 7.1556054893639e-06,
+        "ci95": [
+          -6.869123557366456e-06,
+          2.1180334536094258e-05
+        ]
+      }
+    }
+  ],
+  "primary_intervention_by_arm": [
+    {
+      "arm": "KAPPA_PLUS",
+      "n": 2000,
+      "terminal_delivered_bits_A_minus_B": {
+        "mean": 742986.2000193894,
+        "ci95": [
+          -2983195.6520002317,
+          4469168.05203901
+        ]
+      },
+      "terminal_abs_delivered_bits_difference": {
+        "mean": 68027764.19845162,
+        "ci95": [
+          65793410.01219166,
+          70262118.38471158
+        ]
+      },
+      "selected_A_terminal_rate": {
+        "count": 1014,
+        "probability": 0.507,
+        "ci95": [
+          0.4850966728328868,
+          0.5288764885051757
+        ]
+      },
+      "route_delivered_bits_A_minus_B": {
+        "mean": -27457818306.853264,
+        "ci95": [
+          -27690839291.109573,
+          -27224797322.596954
+        ]
+      },
+      "route_average_rate_A_minus_B_bps": {
+        "mean": -2874411.832935721,
+        "ci95": [
+          -6566477.3914493,
+          817653.7255778573
+        ]
+      },
+      "route_outage_fraction_A_minus_B": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "A_terminal_delivered_bits": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "B_terminal_delivered_bits": {
+        "mean": 531646086.98836845,
+        "ci95": [
+          525998108.72166777,
+          537294065.2550691
+        ]
+      },
+      "A_route_delivered_bits": {
+        "mean": 5457070719.38392,
+        "ci95": [
+          5402545542.228413,
+          5511595896.539427
+        ]
+      },
+      "B_route_delivered_bits": {
+        "mean": 32914889026.237186,
+        "ci95": [
+          32644367430.123394,
+          33185410622.35098
+        ]
+      }
+    },
+    {
+      "arm": "KAPPA_ZERO",
+      "n": 2000,
+      "terminal_delivered_bits_A_minus_B": {
+        "mean": 1421689.7942814184,
+        "ci95": [
+          -5829023.168634266,
+          8672402.757197103
+        ]
+      },
+      "terminal_abs_delivered_bits_difference": {
+        "mean": 131049705.38630426,
+        "ci95": [
+          126625503.13469444,
+          135473907.6379141
+        ]
+      },
+      "selected_A_terminal_rate": {
+        "count": 1016,
+        "probability": 0.508,
+        "ci95": [
+          0.48609541136198264,
+          0.5298739158815173
+        ]
+      },
+      "route_delivered_bits_A_minus_B": {
+        "mean": -27439465168.604916,
+        "ci95": [
+          -27683246231.85386,
+          -27195684105.355972
+        ]
+      },
+      "route_average_rate_A_minus_B_bps": {
+        "mean": -2568526.1954627833,
+        "ci95": [
+          -7330372.309200488,
+          2193319.918274921
+        ]
+      },
+      "route_outage_fraction_A_minus_B": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "A_terminal_delivered_bits": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "B_terminal_delivered_bits": {
+        "mean": 530967383.39410645,
+        "ci95": [
+          525391744.5318285,
+          536543022.2563844
+        ]
+      },
+      "A_route_delivered_bits": {
+        "mean": 5457070719.38392,
+        "ci95": [
+          5402545542.228413,
+          5511595896.539427
+        ]
+      },
+      "B_route_delivered_bits": {
+        "mean": 32896535887.988834,
+        "ci95": [
+          32626671312.014645,
+          33166400463.963024
+        ]
+      }
+    },
+    {
+      "arm": "KAPPA_MINUS",
+      "n": 2000,
+      "terminal_delivered_bits_A_minus_B": {
+        "mean": 2398902.9199511386,
+        "ci95": [
+          -7319221.098699572,
+          12117026.93860185
+        ]
+      },
+      "terminal_abs_delivered_bits_difference": {
+        "mean": 177871882.33126625,
+        "ci95": [
+          172070694.8886457,
+          183673069.7738868
+        ]
+      },
+      "selected_A_terminal_rate": {
+        "count": 1014,
+        "probability": 0.507,
+        "ci95": [
+          0.4850966728328868,
+          0.5288764885051757
+        ]
+      },
+      "route_delivered_bits_A_minus_B": {
+        "mean": -27413079535.909874,
+        "ci95": [
+          -27667657131.60898,
+          -27158501940.21077
+        ]
+      },
+      "route_average_rate_A_minus_B_bps": {
+        "mean": -2128765.650544878,
+        "ci95": [
+          -7800556.661887096,
+          3543025.36079734
+        ]
+      },
+      "route_outage_fraction_A_minus_B": {
+        "mean": -7.1556054893639e-06,
+        "ci95": [
+          -2.1180334536094258e-05,
+          6.869123557366456e-06
+        ]
+      },
+      "A_terminal_delivered_bits": {
+        "mean": 532389073.1883878,
+        "ci95": [
+          526719831.04045624,
+          538058315.3363193
+        ]
+      },
+      "B_terminal_delivered_bits": {
+        "mean": 529990170.26843673,
+        "ci95": [
+          524360468.66649014,
+          535619871.8703833
+        ]
+      },
+      "A_route_delivered_bits": {
+        "mean": 5457070719.38392,
+        "ci95": [
+          5402545542.228413,
+          5511595896.539427
+        ]
+      },
+      "B_route_delivered_bits": {
+        "mean": 32870150255.293797,
+        "ci95": [
+          32600988893.31475,
+          33139311617.272842
+        ]
+      }
+    }
+  ],
+  "witness_pass_evidence": [
+    {
+      "comparison": "KAPPA_PLUS_MINUS_KAPPA_ZERO",
+      "criterion": "terminal_absolute_contrast",
+      "estimate": -63021941.18785264,
+      "relative_effect": 0.6331398657950238,
+      "ci95": [
+        -68038921.40083823,
+        -58004960.97486706
+      ]
+    },
+    {
+      "comparison": "KAPPA_PLUS_MINUS_KAPPA_ZERO",
+      "criterion": "terminal_selection_disagreement",
+      "estimate": 0.449,
+      "ci95": [
+        0.4273196809003545,
+        0.4708758579223333
+      ]
+    },
+    {
+      "comparison": "KAPPA_PLUS_MINUS_KAPPA_MINUS",
+      "criterion": "terminal_absolute_contrast",
+      "estimate": -109844118.13281462,
+      "relative_effect": 0.8934060677434895,
+      "ci95": [
+        -116031790.30949444,
+        -103656445.9561348
+      ]
+    },
+    {
+      "comparison": "KAPPA_PLUS_MINUS_KAPPA_MINUS",
+      "criterion": "terminal_selection_disagreement",
+      "estimate": 0.562,
+      "ci95": [
+        0.5401577267273363,
+        0.5836045594097885
+      ]
+    },
+    {
+      "comparison": "KAPPA_ZERO_MINUS_KAPPA_MINUS",
+      "criterion": "terminal_absolute_contrast",
+      "estimate": -46822176.94496197,
+      "relative_effect": 0.3031330849417285,
+      "ci95": [
+        -52917679.23339927,
+        -40726674.65652467
+      ]
+    },
+    {
+      "comparison": "KAPPA_ZERO_MINUS_KAPPA_MINUS",
+      "criterion": "terminal_selection_disagreement",
+      "estimate": 0.294,
+      "ci95": [
+        0.274443321398105,
+        0.31434650208177106
+      ]
+    }
+  ],
+  "frozen_status_rule": "EXECUTION_LOCK.md: primary terminal absolute contrast or primary terminal selection disagreement only"
+}

@@ -1,0 +1,38 @@
+{
+  "decision": "CF0_FIXED_ACTION_SEPARATION_SURVIVES",
+  "counterfactual_valid": true,
+  "h1": {
+    "mechanism": "H1_CAPACITY_SHORTAGE",
+    "n_checkpoints": 30,
+    "n_independent_seeds": 30,
+    "P_best_CAPACITY": 1.0,
+    "P_best_SYNC": 0.0,
+    "P_best_NO_ACTION": 0.0,
+    "P_tie": 0.0,
+    "seeds_supporting_CAPACITY": 30,
+    "seeds_supporting_SYNC": 0,
+    "seeds_supporting_NO_ACTION": 0,
+    "median_advantage": 5.629857398512975,
+    "mean_advantage": 5.816813585663251
+  },
+  "h2": {
+    "mechanism": "H2_DISTRIBUTED_CAPACITY_SUPPRESSION",
+    "n_checkpoints": 30,
+    "n_independent_seeds": 30,
+    "P_best_CAPACITY": 0.0,
+    "P_best_SYNC": 1.0,
+    "P_best_NO_ACTION": 0.0,
+    "P_tie": 0.0,
+    "seeds_supporting_CAPACITY": 0,
+    "seeds_supporting_SYNC": 30,
+    "seeds_supporting_NO_ACTION": 0,
+    "median_advantage": 40.20340516852254,
+    "mean_advantage": 39.791959234892744
+  },
+  "nontrivial_flags": {
+    "H1_CAPACITY_SHORTAGE": false,
+    "H2_DISTRIBUTED_CAPACITY_SUPPRESSION": false
+  },
+  "elapsed_seconds": 6.375475306995213,
+  "elapsed_simulation_seconds": 2.372320313937962
+}

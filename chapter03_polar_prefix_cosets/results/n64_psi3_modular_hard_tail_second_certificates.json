@@ -1,0 +1,200 @@
+{
+  "inconclusive": 0,
+  "kind": "exact second modular Psi3 hard-tail certificate analysis",
+  "pair_count": 7,
+  "pairs": [
+    {
+      "K": 29,
+      "left_residue_vector": [
+        976583384,
+        151974037,
+        933830905,
+        456429558
+      ],
+      "objects": [
+        "n64_i15_J23-27-29-30-31-38-39-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63",
+        "n64_i15_J23-27-29-30-31-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63"
+      ],
+      "pair_id": "n64_psi2_collision_pair_022",
+      "point": [
+        23,
+        1009
+      ],
+      "prime": 998244353,
+      "reason": "different residues prove exact Psi3 polynomial inequality",
+      "right_residue_vector": [
+        517242931,
+        151974037,
+        933830905,
+        456429558
+      ],
+      "status": "exact_modular_separation_certificate"
+    },
+    {
+      "K": 32,
+      "left_residue_vector": [
+        126756579,
+        484969248,
+        227008150,
+        428828399
+      ],
+      "objects": [
+        "n64_i15_J23-25-26-27-28-29-30-31-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63",
+        "n64_i15_J23-27-28-29-30-31-37-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63"
+      ],
+      "pair_id": "n64_psi2_collision_pair_033",
+      "point": [
+        23,
+        1009
+      ],
+      "prime": 998244353,
+      "reason": "different residues prove exact Psi3 polynomial inequality",
+      "right_residue_vector": [
+        883783198,
+        913940629,
+        377621925,
+        441004403
+      ],
+      "status": "exact_modular_separation_certificate"
+    },
+    {
+      "K": 33,
+      "left_residue_vector": [
+        762520948,
+        755399404,
+        56317034,
+        398453601
+      ],
+      "objects": [
+        "n64_i15_J23-25-26-27-28-29-30-31-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63",
+        "n64_i15_J23-26-27-28-29-30-31-37-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63"
+      ],
+      "pair_id": "n64_psi2_collision_pair_043",
+      "point": [
+        23,
+        1009
+      ],
+      "prime": 998244353,
+      "reason": "different residues prove exact Psi3 polynomial inequality",
+      "right_residue_vector": [
+        844686739,
+        393898334,
+        249747877,
+        619598000
+      ],
+      "status": "exact_modular_separation_certificate"
+    },
+    {
+      "K": 34,
+      "left_residue_vector": [
+        425855164,
+        151122774,
+        124066669,
+        692048546
+      ],
+      "objects": [
+        "n64_i15_J22-23-25-26-27-28-29-30-31-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63",
+        "n64_i15_J22-23-26-27-28-29-30-31-37-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63"
+      ],
+      "pair_id": "n64_psi2_collision_pair_044",
+      "point": [
+        23,
+        1009
+      ],
+      "prime": 998244353,
+      "reason": "different residues prove exact Psi3 polynomial inequality",
+      "right_residue_vector": [
+        969866319,
+        187566841,
+        339079741,
+        213474139
+      ],
+      "status": "exact_modular_separation_certificate"
+    },
+    {
+      "K": 35,
+      "left_residue_vector": [
+        610400714,
+        532731155,
+        828780614,
+        927842701
+      ],
+      "objects": [
+        "n64_i15_J22-23-26-27-28-29-30-31-35-37-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63",
+        "n64_i15_J23-25-26-27-28-29-30-31-35-37-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63"
+      ],
+      "pair_id": "n64_psi2_collision_pair_050",
+      "point": [
+        23,
+        1009
+      ],
+      "prime": 998244353,
+      "reason": "different residues prove exact Psi3 polynomial inequality",
+      "right_residue_vector": [
+        706993862,
+        532731155,
+        828780614,
+        927842701
+      ],
+      "status": "exact_modular_separation_certificate"
+    },
+    {
+      "K": 35,
+      "left_residue_vector": [
+        945227686,
+        627440459,
+        477641105,
+        278266979
+      ],
+      "objects": [
+        "n64_i14_J15-22-23-25-26-27-28-29-30-31-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63",
+        "n64_i14_J15-22-23-26-27-28-29-30-31-37-38-39-41-42-43-44-45-46-47-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63"
+      ],
+      "pair_id": "n64_psi2_collision_pair_053",
+      "point": [
+        23,
+        1009
+      ],
+      "prime": 998244353,
+      "reason": "different residues prove exact Psi3 polynomial inequality",
+      "right_residue_vector": [
+        766791498,
+        949886534,
+        190696204,
+        193388488
+      ],
+      "status": "exact_modular_separation_certificate"
+    },
+    {
+      "K": 36,
+      "left_residue_vector": [
+        163469802,
+        799357790,
+        467659233,
+        311153289
+      ],
+      "objects": [
+        "n64_i15_J22-23-26-27-28-29-30-31-35-37-38-39-41-42-43-44-45-46-47-48-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63",
+        "n64_i15_J23-25-26-27-28-29-30-31-35-37-38-39-41-42-43-44-45-46-47-48-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63"
+      ],
+      "pair_id": "n64_psi2_collision_pair_062",
+      "point": [
+        23,
+        1009
+      ],
+      "prime": 998244353,
+      "reason": "different residues prove exact Psi3 polynomial inequality",
+      "right_residue_vector": [
+        936214986,
+        799357790,
+        467659233,
+        311153289
+      ],
+      "status": "exact_modular_separation_certificate"
+    }
+  ],
+  "separated": 7,
+  "source_merged_modular_values": "results/n64_psi3_modular_root_second_merged.json",
+  "source_partial_psi3_analysis": "results/n64_psi3_merged_analysis.json",
+  "status": "complete"
+}

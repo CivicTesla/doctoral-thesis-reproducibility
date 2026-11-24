@@ -1,0 +1,6 @@
+outer_fold,selected_w_H2,selected_b_H2,fallback_to_T0
+0,1.0,1.5,False
+1,1.0,0.75,False
+2,,,True
+3,1.0,2.0,False
+4,,,True

@@ -1,0 +1,3 @@
+condition,delay,packet_loss,runs,trace_reference,o0_reference
+delay_1_loss_0.0,1,0.0,200,traces/f0_f2_delay_1_loss_0.0.npz,traces/f0_o0.npz
+delay_2_loss_0.0,2,0.0,200,traces/f0_f2_delay_2_loss_0.0.npz,traces/f0_o0.npz

@@ -1,0 +1,17 @@
+claim,source_stage,main_scale_result,holdout_result,final_status,allowed_paper_wording,forbidden_stronger_wording
+H1/H2 action separation,F0,SURVIVES,SURVIVES,SURVIVES,H1/H2 strict action separation confirmed at 400+100-seed final scale,n/a
+H2 directional error cost asymmetry,F0,SURVIVES,SURVIVES,SURVIVES,H2 misclassification remains materially costlier than H1 misclassification,specific numeric ratio claims beyond the reported CIs
+T4 BA gain,F0,SURVIVES (CI entirely positive),NOT_SIGNIFICANT (CI crosses zero),WEAKENS,T4 improves balanced accuracy over T0 at main scale,claiming the BA gain is confirmed at holdout scale
+T4 critical-H2 risk worsening,F0,SURVIVES,"SURVIVES (marginal, CI barely excludes 0)",SURVIVES,"T4's H2 regret is significantly worse than T0's, confirmed direction-stable across independent main and holdout seed sets","overstating holdout significance strength (CI lower bound ~0.005, much weaker than main's 0.33)"
+aggregate inversion (T4 total regret worse),F0,NOT_CLAIMED (crosses 0),NOT_CLAIMED (crosses 0),NOT_EVALUATED,no aggregate-inversion claim is made,claiming T4 worsens total regret overall
+R4 H2 protection,F0,SURVIVES,"SURVIVES (marginal, CI barely excludes 0)",SURVIVES,"R4 reduces H2 regret relative to T4, direction-stable across main and holdout",claiming a large or precisely-bounded holdout effect
+R4 H1 harm,F0,SURVIVES,SURVIVES,SURVIVES,"R4 increases H1 regret relative to T4, confirmed in both main and holdout",n/a
+risk transfer (R4),F0,SURVIVES,SURVIVES,SURVIVES,"R4 trades H1 harm for H2 protection (risk transfer, not free improvement), confirmed at final scale",claiming R4 is a net improvement
+H3/H4 action separation,F0,SURVIVES,SURVIVES,SURVIVES,H3/H4 strict action separation confirmed at 400+100-seed final scale,n/a
+H3/H4 near-symmetric costs,F0,SURVIVES,SURVIVES,SURVIVES,H3/H4 wrong-action costs remain near-symmetric,n/a
+M1 BA gain,F0,SURVIVES,SURVIVES,SURVIVES,"M1 improves balanced accuracy over M0, confirmed in both main and holdout",n/a
+M1 total/H3/H4 risk improvement,F0,"WEAKENS (H3 regret significantly worse, CI entirely positive)","INCONSISTENT (H3 regret significantly BETTER at holdout, H4 not significant)",FAILS,M1 improves overall balanced accuracy and total regret,any claim that M1 improves H3 and H4 regret symmetrically or reproducibly -- main and holdout disagree in sign on the H3/H4 breakdown even though both agree M1 improves the aggregate
+M2 inaction opportunity cost,F0,SURVIVES,SURVIVES,SURVIVES,"REJECT -> NO_ACTION carries a significant, direction-stable opportunity cost",n/a
+harm-mass identity,F0,SURVIVES (max err 3.6e-12),SURVIVES (max err 2.3e-13),SURVIVES,harm-mass accounting identity holds exactly at final scale,n/a
+risk-direction prediction,F0,SURVIVES (90%/80% >= 80%/75%),"NOT_RE-EVALUATED (main-scale costs used to predict, per protocol)",SURVIVES,pre-registered risk-direction prediction thresholds met,n/a
+Simu5G external validation,F0,FAILS,FAILS,FAILS,Simu5G established a real bottleneck but no working action counterfactual; external replication not established,packaging P4A feasibility as external validation

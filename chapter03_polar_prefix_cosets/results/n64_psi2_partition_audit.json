@@ -1,0 +1,18 @@
+{
+  "N": 64,
+  "all_classes_nonempty": true,
+  "class_member_accounting": "1010*1 + 81*2 = 1172",
+  "class_size_histogram": {
+    "1": 1010,
+    "2": 81,
+    "ge_3": 0
+  },
+  "equivalence_class_count": 1091,
+  "no_flattened_size_ge_3_class": true,
+  "object_count": 1172,
+  "pairwise_disjoint": true,
+  "partition_sha256": "b28417ec100abbba38205364fe50b3a130eb3bfa72b0f1c56f6f67376a53ae6b",
+  "reducer_sha256": "65db8f353f5275c41807aecb3a856e815a73521f7b55ef8859f49fd1fd08c270",
+  "status": "PASS",
+  "union_is_canonical_universe": true
+}
